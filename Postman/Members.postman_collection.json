@@ -1,0 +1,303 @@
+{
+	"info": {
+		"_postman_id": "c8f9a742-b363-473a-b92e-547e941eae93",
+		"name": "Members",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all Members",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 8,\r\n    \"Membername\": \"Team 8\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/members/",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"members",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Member",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:5000/api/members/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"members",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Member",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:5000/api/members/1",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"members",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 05 Nov 2021 08:42:49 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"name\": \"Diego\",\n    \"surname\": \"Ceñal Alvarez\",\n    \"role\": \"Agile manager\",\n    \"email\": \"diego.cenal@softwareone.com\",\n    \"username\": \"diego.cenal\",\n    \"comments\": \"\",\n    \"lastUpdate\": \"22/10/2021\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Member's Skills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "Get Member's Skills",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/members/members/1/Skills",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"members",
+								"members",
+								"1",
+								"Skills"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 04 Nov 2021 13:40:44 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"Scrum\",\n        \"id\": 4,\n        \"level\": [\n            {\n                \"name\": \"Expert\",\n                \"id\": 3\n            }\n        ],\n        \"category\": [\n            {\n                \"category\": \"Methodologies\",\n                \"categoryId\": 3\n            }\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Member's Languages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/members/members/1/Languages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"members",
+						"members",
+						"1",
+						"Languages"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Member's Languages",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/members/members/1/Languages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"members",
+								"members",
+								"1",
+								"Languages"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 04 Nov 2021 13:42:13 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"English (United Kingdom)\",\n        \"code\": \"en-gb\",\n        \"id\": 2,\n        \"level\": [\n            {\n                \"name\": \"B2\",\n                \"id\": 4\n            }\n        ]\n    },\n    {\n        \"name\": \"English (United States)\",\n        \"code\": \"en-us\",\n        \"id\": 3,\n        \"level\": [\n            {\n                \"name\": \"B2\",\n                \"id\": 4\n            }\n        ]\n    },\n    {\n        \"name\": \"Spanish (Spain)\",\n        \"code\": \"es\",\n        \"id\": 1,\n        \"level\": [\n            {\n                \"name\": \"Native\",\n                \"id\": 7\n            }\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Filter Members",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/members?categoryId=1&skillId=1&skillLevelId=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"members"
+					],
+					"query": [
+						{
+							"key": "categoryId",
+							"value": "1"
+						},
+						{
+							"key": "skillId",
+							"value": "1"
+						},
+						{
+							"key": "skillLevelId",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Member Skill",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"skillLevelId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/members/3/skills/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"members",
+						"3",
+						"skills",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

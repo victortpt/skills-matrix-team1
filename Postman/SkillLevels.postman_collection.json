@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "ff3afbd8-ff42-4bfc-9fae-07996af42ed2",
+		"name": "SkillLevels",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all skill levels",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 8,\r\n    \"skilllevel\": \"Team 8\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/skilllevel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"skilllevel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get one skill level by Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"Skill level\":Diego \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/skilllevel/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"skilllevel",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add skill level",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 8,\r\n    \"teamName\": \"Team 8\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/skilllevel",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"skilllevel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update skill level",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 81,\r\n    \"teamName\": \"Team 821\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/team/5",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"team",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a skill level",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/skilllevel/1",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"skilllevel",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

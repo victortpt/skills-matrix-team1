@@ -1,0 +1,1 @@
+UPDATE LANGUAGES SET language_code="en" WHERE language_code LIKE "en%";

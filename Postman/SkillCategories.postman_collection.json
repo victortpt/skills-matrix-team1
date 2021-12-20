@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "96ef5eb2-803e-453a-89c9-360f9da0df8f",
+		"name": "SkillCategories",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all skills gruoped by category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/skillcategories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"skillcategories"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

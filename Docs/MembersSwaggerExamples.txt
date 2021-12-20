@@ -1,0 +1,61 @@
+//Ejemplo de salida método Get de Members Controller
+[
+  {
+    "Id": 1,
+    "Name": "Diego",
+    "Surname": "Ceñal Alvarez",
+    "Role": "Agile manager",
+    "Member_skillsDto": [
+      {
+        "Name": "Scrum",
+        "Level": "Expert"
+      }
+    ],
+    "Member_languagesDto": [
+      {
+        "Name": "Spanish (Spain)",
+        "Level": "Native"
+      },
+      {
+        "Name": "English (United Kingdom)",
+        "Level": "B2"
+      },
+      {
+        "Name": "English (United States)",
+        "Level": "B2"
+      }
+    ],
+    "Last_update": "16/10/2021"
+  },
+  {
+    "Id": 3,
+    "Name": "Roberto",
+    "Surname": "Mencia",
+    "Role": "Senior Developer",
+    "Member_skillsDto": [
+      {
+        "Name": "Scrum",
+        "Level": "Intermediate"
+      },
+      {
+        "Name": "C#",
+        "Level": "Expert"
+      }
+    ],
+    "Member_languagesDto": [
+      {
+        "Name": "Spanish (Spain)",
+        "Level": "Native"
+      },
+      {
+        "Name": "English (United Kingdom)",
+        "Level": "B1"
+      },
+      {
+        "Name": "English (United States)",
+        "Level": "B2"
+      }
+    ],
+    "Last_update": "16/10/2021"
+  }
+]

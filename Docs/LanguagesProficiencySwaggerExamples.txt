@@ -1,0 +1,30 @@
+[
+  {
+    "proficiency_id": 1,
+    "proficiency": "A1"
+  },
+  {
+    "proficiency_id": 2,
+    "proficiency": "A2"
+  },
+  {
+    "proficiency_id": 3,
+    "proficiency": "B1"
+  },
+  {
+    "proficiency_id": 4,
+    "proficiency": "B2"
+  },
+  {
+    "proficiency_id": 5,
+    "proficiency": "C1"
+  },
+  {
+    "proficiency_id": 6,
+    "proficiency": "C2"
+  },
+  {
+    "proficiency_id": 7,
+    "proficiency": "Native"
+  }
+]

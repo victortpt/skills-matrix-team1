@@ -1,0 +1,15 @@
+// GET skill levels JSON Example
+[
+  {
+    "Id": 1,
+    "SkillLevel1": "Beginner"
+  },
+  {
+    "Id": 2,
+    "SkillLevel1": "Intermediate"
+  },
+  {
+    "Id": 3,
+    "SkillLevel1": "Expert"
+  }
+]

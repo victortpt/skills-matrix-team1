@@ -1,0 +1,39 @@
+// GET Json example
+[
+  {
+    "surname": "Ceñal Alvarez",
+    "name": "Diego",
+    "category": [
+      {
+        "name": "Methodologies",
+        "id": 3,
+        "skill": [
+          {
+            "name": "Scrum",
+            "id": 4,
+            "level": "Expert",
+            "levelId": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "surname": "Novillo",
+    "name": "Maria",
+    "category": [
+      {
+        "name": "Methodologies",
+        "id": 3,
+        "skill": [
+          {
+            "name": "Scrum",
+            "id": 4,
+            "level": "Expert",
+            "levelId": 3
+          }
+        ]
+      }
+    ]
+  }
+]

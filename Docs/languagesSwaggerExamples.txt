@@ -1,0 +1,18 @@
+// GET Json example
+[
+  {
+    "Id": 2,
+    "Language": "English (United Kingdom)",
+    "LanguageCode": "en-gb"
+  },
+  {
+    "Id": 3,
+    "Language": "English (United States)",
+    "LanguageCode": "en-us"
+  },
+  {
+    "Id": 1,
+    "Language": "Spanish (Spain)",
+    "LanguageCode": "es"
+  }
+]
